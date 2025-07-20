@@ -29,8 +29,7 @@ const Contact = () => {
   async function onsubmit(e) {
    
    try {
-   
-   const res = await sendData(e)
+     const res = await sendData(e)
     console.log(res.data)
     setToast(false)
     
